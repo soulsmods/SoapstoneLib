@@ -8,7 +8,7 @@ This is not meant to be a universal solution for editor interoperability. If a p
 
 **Do not use Soapstone functionality unless your project is fully source-available and you'd be able to accept contributions from soulsmods contributors.** Depending on future use cases, it may be necessary to make backwards-incompatible changes to clients and servers, and this is not possible unless all existing usages can be viewed and migrated.
 
-As of 2022, this library is maintained by thefifthmatt. Please get in touch if you have any possible use cases which could be supported.
+As of 2024, this library is maintained by thefifthmatt. Please get in touch if you have any possible use cases which could be supported.
 
 ## Using the library
 
