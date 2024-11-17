@@ -41,6 +41,12 @@ namespace TestConsoleApp
             public override string ToString() => BinderPath == null ? $"{Game} {FmgPath}" : $"{Game} {BinderPath} {BinderID}:{FmgPath}";
         }
 
+        /// <summary>
+        /// Usage: TestConsoleApp.exe [mode] [game paths...]
+        ///
+        /// Supported modes are "key", which outputs the dictionaries below with as many names automatically
+        /// filled in as possible, and "data", which outputs the full contents of SoulsFmg.Data.cs.
+        /// </summary>
         public static void Run(string[] args)
         {
             Dictionary<FromSoftGame, string> gamePaths = new Dictionary<FromSoftGame, string>();
@@ -581,7 +587,7 @@ namespace SoapstoneLib
             "46/GoodsInfo2/GoodsInfo2", // item [EldenRing]
             "50/ランカープロフィール/RankerProfile", // menu [ArmoredCore6]
             "60/ミッション名/MissionName", // menu [ArmoredCore6]
-            "61/ミッション概要/MissionInfo", // menu [ArmoredCore6]
+            "61/ミッション概要/MissionSummary", // menu [ArmoredCore6]
             "62/ミッション目標/MissionObjective", // menu [ArmoredCore6]
             "63/ミッション地点名/MissionPlaceName", // menu [ArmoredCore6]
             "65/アーカイブ名/ArchiveName", // menu [ArmoredCore6]
